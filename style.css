@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+} */
+body{
+    background: url(./images/Ellipse3.png), url(./images/Ellipse4.png) center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: center, center;
+    background-position-y: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+section.header{
+    color: blueviolet;
+}
+
+
+div.topleft{
+    flex: 1;
+    text-align: right;
+}
+
+ul.listleft li{
+    position: relative;
+    display: inline-block;
+    /* border: 2px solid red; */
+    padding: 20px 20px;
+    list-style: none;
+}
+
+ul.listleft li a{
+    text-decoration: none;
+}
+
+ul.listleft li :hover{
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+nav img{
+    width: 30px;
+}
+
+div.logo{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 8px;
+    margin-left: 55px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+div.revdiv{
+    /* border: 2px solid red; */
+    margin-top: 180px;
+    margin-left: 170px;
+    color: black;
+    height: 240px;
+    width: 750px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+div.revdiv div{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    width: 700px;
+    font-weight: 2;
+    font-size: 20px;
+    height: 100px;
+    line-height: 30px;
+}
+
+div.revdiv img{
+    margin-left: 950px;
+    margin-top: -500px;
+    height: 650px;
+}
+
+div.revdiv div.build{
+    margin-top: -146.8px;
+    margin-left: 1100px;
+    border-radius: 5px;
+    background-color: white;
+    border: white;
+    opacity: 50;
+    height: 120px;
+    width: 340px;
+    position: absolute;
+    line-height: 15px;
+}
+
+div.revdiv div.build p.in{
+    margin: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    word-spacing: 3px;
+}
+
+div.revdiv div.build p.out{
+    margin-left: 220px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: -20px;
+}
